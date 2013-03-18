@@ -11,12 +11,3 @@ Contributors
 * taco
 
 Want to contribute? Great! Just give us a holler.
-
-Sub header
-----------
-
-Some text.
-
-### Sub sub header
-
-Some more text.
