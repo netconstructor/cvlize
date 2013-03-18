@@ -12,11 +12,6 @@ Contributors
 
 Want to contribute? Great! Just give us a holler.
 
-Sub header
-----------
-
-Some text.
-
-### Sub sub header
-
-Some more text.
+Ideas:	
+--------
+Third party site integration. snippet of code to insert to get a See my CV at Cvlize, or contakt button, like "hire this person" or something similar.
