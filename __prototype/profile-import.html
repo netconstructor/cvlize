@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+	<meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <title>Import profile : Cvlize - Easier CV creation</title>
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/foundation.css" />
+  <link rel="stylesheet" href="css/social_foundicons.css">
+  <link rel="stylesheet" href="css/cvlize.css" />
+  <script src="js/vendor/custom.modernizr.js"></script>
+</head>
+<body>
+  <!-- Top bar -->
+  <div class="contain-to-grid fixed">
+    <nav class="top-bar">
+      <ul class="title-area">
+        <li class="name">
+          <h1><a href="/">Cvlize</a></h1>
+        </li>
+        <li class="toggle-topbar menu-icon"><a href="/"><span></span></a></li>
+      </ul>
+      <section class="top-bar-section">
+        <ul class="left">
+          <li class="divider"></li>
+          <li class="active"><a href="/">Home</a></li>
+          <li class="divider"></li>
+          <li><a href="about-cvlize.html">About Cvlize</a></li>
+          <li class="divider"></li>
+          <li><a href="contact-us.html">Contact us</a></li>
+        </ul>
+      </section>
+      </div>
+    </nav>
+  </div>
+  <!-- / Top bar -->
+  <div class="row">
+    <div class="large-12 columns">
+      <h3>Start building your CV</h3>
+      <p>The easiest way of creating your Cvlize profile is by importing what you already have on LinkedIn, and if you don't have a LinkedIn account just fill out the form below.</p>
+      <!-- TODO: Click button disables button and shows alert success box -->
+      <p><a href="#" class="medium button radius secondary"><i class="foundicon-linkedin" style="position: absolute; margin-left: -22px;"></i> Pre-fill form using LinkedIn</a></p>
+      <div data-alert class="alert-box success radius" style="font-weight: normal; line-height: 1.25em;">
+        Congratulations, the import was successful! Just make sure that everything's filled out properly in the form below and create your profile.
+        <a href="#" class="close">&times;</a>
+      </div>
+      <form class="custom">
+        <fieldset>
+          <legend>Your profile</legend>
+          <!-- TODO: Change to correct field type -->
+          <div class="row">
+            <div class="large-6 columns">
+              <input type="text" placeholder="First name, text field">
+            </div>
+            <div class="large-6 columns">
+              <input type="text" placeholder="Last name, text field">
+            </div>
+            <div class="large-6 columns">
+              <input type="text" placeholder="Headline, text field">
+            </div>
+            <div class="large-6 columns">
+              <input type="text" placeholder="Industry, dropdown">
+            </div>
+            <div class="large-6 columns">
+              <textarea placeholder="Summary, text area"></textarea>
+            </div>
+            <div class="large-6 columns">
+              <textarea placeholder="Specialties, text area"></textarea>
+            </div>
+            <div class="large-6 columns">
+              <input type="text" placeholder="City, auto-complete">
+            </div>
+            <div class="large-6 columns">
+              <input type="text" placeholder="Country, dropdown">
+            </div>
+            <div class="large-6 columns">
+              <input type="text" placeholder="Email address, text field">
+            </div>
+            <div class="large-6 columns">
+              <input type="text" placeholder="Date of birth, three selects">
+            </div>
+            <div class="large-12 columns">
+              <hr>
+            </div>
+            <div class="large-4 columns">
+              <img src="http://placehold.it/320x320&amp;text=Thumbnail+(320x320)" />
+            </div>
+            <div class="large-8 columns">
+              <input type="text" placeholder="Picture URL, image picker">
+            </div>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Experience</legend>
+          <!-- TODO: Change to correct field type -->
+          <div class="row">
+            <div class="large-12 columns">
+              <table style="width:100%;">
+                <thead>
+                  <tr>
+                    <th>Title</th>
+                    <th>Company</th>
+                    <th>Date</th>
+                    <th width="15"></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Founding partner</td>
+                    <td>Gimmie Golf Guide</td>
+                    <td>2008 - Present</td>
+                    <td>X</td>
+                  </tr>
+                </tbody>
+              </table>
+              <hr/>
+            </div>
+          </div>
+          <div class="row">
+            <div class="large-6 columns">
+              <input type="text" placeholder="Title, text field">
+            </div>
+            <div class="large-6 columns">
+              <input type="text" placeholder="Company name, text field">
+            </div>
+            <div class="large-6 columns">
+              <input type="text" placeholder="Start date, date picker">
+            </div>
+            <div class="large-6 columns">
+              <input type="text" placeholder="End date, date picker">
+            </div>
+            <div class="large-6 columns">
+              <textarea placeholder="Summary, text area"></textarea>
+            </div>
+            <div class="large-6 columns">
+              <label for="checkbox3"><input type="checkbox" id="checkbox3" style="display: none;"><span class="custom checkbox"></span> Is current?</label>
+            </div>
+            <div class="large-12 columns">
+              <a href="#" class="small button success radius">Add experience</a>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Languages</legend>
+          <!-- TODO: Change to correct field type -->
+          <div class="row">
+            <div class="large-12 columns">
+              <table style="width:100%;">
+                <thead>
+                  <tr>
+                    <th>Language</th>
+                    <th>Level</th>
+                    <th width="15"></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Swedish</td>
+                    <td>Native or bilingual proficiency</td>
+                    <td>X</td>
+                  </tr>
+                  <tr>
+                    <td>English</td>
+                    <td>Full professional proficiency</td>
+                    <td>X</td>
+                  </tr>
+                </tbody>
+              </table>
+              <hr/>
+            </div>
+          </div>
+          <div class="row">
+            <div class="large-6 columns">
+              <input type="text" placeholder="Language, dropdown">
+            </div>
+            <div class="large-6 columns">
+              <input type="text" placeholder="Proficiency level, dropdown">
+            </div>
+            <div class="large-12 columns">
+              <a href="#" class="small button success radius">Add language</a>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Skills &amp; Expertise</legend>
+          <!-- TODO: Change to correct field type -->
+          <div class="row">
+            <div class="large-12 columns">
+              <table style="width:100%;">
+                <thead>
+                  <tr>
+                    <th>Skills or Expertise</th>
+                    <th width="15"></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Web Development</td>
+                    <td>X</td>
+                  </tr>
+                  <tr>
+                    <td>User Experience</td>
+                    <td>X</td>
+                  </tr>
+                  <tr>
+                    <td>Web Project Management</td>
+                    <td>X</td>
+                  </tr>
+                  <tr>
+                    <td>SEO</td>
+                    <td>X</td>
+                  </tr>
+                  <tr>
+                    <td>Usability</td>
+                    <td>X</td>
+                  </tr>
+                </tbody>
+              </table>
+              <hr/>
+            </div>
+          </div>
+          <div class="row">
+            <div class="large-12 columns">
+              <input type="text" placeholder="Skill or Expertise, text field">
+            </div>
+            <div class="large-12 columns">
+              <a href="#" class="small button success radius">Add skill or expertise</a>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Education</legend>
+          <!-- TODO: Change to correct field type -->
+          <div class="row">
+            <div class="large-12 columns">
+              <table style="width:100%;">
+                <thead>
+                  <tr>
+                    <th>School name</th>
+                    <th>Field of study</th>
+                    <th>Date</th>
+                    <th width="15"></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Stockholm University</td>
+                    <td>Psychology</td>
+                    <td>2000 - 2004</td>
+                    <td>X</td>
+                  </tr>
+                </tbody>
+              </table>
+              <hr/>
+            </div>
+          </div>
+          <div class="row">
+            <div class="large-6 columns">
+              <input type="text" placeholder="School name, text field">
+            </div>
+            <div class="large-6 columns">
+              <input type="text" placeholder="Field of study, text field">
+            </div>
+            <div class="large-6 columns">
+              <input type="text" placeholder="Degree, text field">
+            </div>
+            <div class="row">
+              <div class="large-12 columns">
+                <div class="large-6 columns">
+                  <input type="text" placeholder="Start date, date picker">
+                </div>
+                <div class="large-6 columns">
+                  <input type="text" placeholder="End date, date picker">
+                </div>
+              </div>
+            </div>
+            <div class="large-12 columns">
+              <a href="#" class="small button success radius">Add education</a>
+            </div>
+        </fieldset>
+        <div class="row">
+          <div class="large-12 columns">
+            <label for="checkbox1" style="margin-bottom: 6px;"><input type="checkbox" id="checkbox1" style="display: none;"><span class="custom checkbox"></span> Remember me on this device</label>
+            <label for="checkbox2" style="margin-bottom: 16px;"><input type="checkbox" id="checkbox2" style="display: none;"><span class="custom checkbox"></span> Yes, I agree to the <a href="#">terms and conditions</a></label>
+          </div>
+        </div>
+        <a href="logged-in.html" class="large button radius">Create your CV</a>
+      </form>
+    </div>
+  </div>
+  <!-- Footer -->
+  <div class="row">
+    <div class="large-12 columns">
+      <hr />
+      <p>&copy; Copyright</p>
+    </div>
+  </div>
+  <!-- / Footer -->
+
+  <script>
+  document.write('<script src=' +
+  ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
+  '.js><\/script>')
+  </script>
+  <!--
+  <script src="js/foundation.min.js"></script>
+  -->
+  <script src="js/foundation/foundation.js"></script>
+  <script src="js/foundation/foundation.alerts.js"></script>
+  <script src="js/foundation/foundation.clearing.js"></script>
+  <script src="js/foundation/foundation.cookie.js"></script>
+  <script src="js/foundation/foundation.dropdown.js"></script>
+  <script src="js/foundation/foundation.forms.js"></script>
+  <script src="js/foundation/foundation.joyride.js"></script>
+  <script src="js/foundation/foundation.magellan.js"></script>
+  <script src="js/foundation/foundation.orbit.js"></script>
+  <script src="js/foundation/foundation.placeholder.js"></script>
+  <script src="js/foundation/foundation.reveal.js"></script>
+  <script src="js/foundation/foundation.section.js"></script>
+  <script src="js/foundation/foundation.tooltips.js"></script>
+  <script src="js/foundation/foundation.topbar.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+</body>
+</html>
